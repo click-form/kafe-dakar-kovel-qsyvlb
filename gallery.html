@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотогалерея — Кафе «Дакар» Ковель</title>
+    <meta name="description" content="Фотографії інтер'єру та атмосфери кафе «Дакар» у Ковелі.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🍽️</span>
+                <span class="logo-text" data-i18n="brand_name">Кафе «Дакар»</span>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Послуги</a></li>
+                    <li><a href="gallery.html" class="active" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="nav_gallery">Фотогалерея</h1>
+                <p data-i18n="gallery_page_subtitle">Затишна атмосфера та інтер'єр кафе «Дакар»</p>
+            </div>
+        </section>
+
+        <section class="section gallery-section">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <span class="gallery-icon">🏛️</span>
+                            <p data-i18n="gallery_item_1">Основна зала кафе «Дакар»</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <span class="gallery-icon">🎉</span>
+                            <p data-i18n="gallery_item_2">Банкетний зал для святкувань</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <span class="gallery-icon">🍲</span>
+                            <p data-i18n="gallery_item_3">Страви української та європейської кухні</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <span class="gallery-icon">✨</span>
+                            <p data-i18n="gallery_item_4">Затишна атмосфера та інтер'єр</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3 data-i18n="brand_name">Кафе «Дакар»</h3>
+                <p data-i18n="footer_desc">Затишне кафе у Ковелі для вашого відпочинку та святкувань.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts">Контакти</h4>
+                <p data-i18n="address_text">вулиця Брестська, 111а, Ковель, Волинська область, Україна</p>
+                <p><a href="tel:+380503783725">+380 50 378 3725</a></p>
+                <p data-i18n="hours_val">Пн-Нд: 09:00 - 24:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav">Навігація</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; <span id="current-year"></span> Кафе «Дакар». <span data-i18n="all_rights">Всі права захищені.</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
